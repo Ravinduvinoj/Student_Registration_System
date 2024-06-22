@@ -1,0 +1,72 @@
+.addc {
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     background-color: #f4f4f4;
+ }
+ 
+ .addc h1 {
+     text-align: center;
+     color: #333;
+ }
+ 
+ #courseinfo {
+     max-width: 800px;
+     margin: 20px auto;
+     background: #fff;
+     padding: 20px;
+     border-radius: 8px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+ 
+ #courseinfo label {
+     display: block;
+     margin-bottom: 8px;
+ }
+ 
+ #courseinfo input,
+ textarea,
+ select {
+     width: 100%;
+     padding: 10px;
+     margin-bottom: 15px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+ }
+ 
+.nmm {
+     background-color: #4caf50;
+     color: #fff;
+     padding: 10px 15px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     float: right;
+     transition: 0.3s;
+     justify-content: space-between;
+     column-gap: 20px;
+ }
+ 
+ .nmm:hover {
+     background-color: #45a049;
+ }
+ 
+ #right {
+     float: right;
+     width: 40%;
+ }
+ 
+ .lftxt {
+     float: left;
+     width: 55%;
+ }
+ 
+ @media screen and (max-width: 600px) {
+     #right,
+     .lftxt {
+         width: 100%;
+         float: none;
+     }
+ }
+ 

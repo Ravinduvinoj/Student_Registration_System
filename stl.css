@@ -1,0 +1,26 @@
+.rg {
+  background-color: #f0faff;
+}
+
+.h2 {
+  font-family: Calibri;
+  font-size: 25pt;
+  font-style: normal;
+  font-weight: bold;
+  color: rgb(44, 14, 241);
+  text-align: center;
+  text-decoration: underline
+}
+
+.tbl {
+  border-radius: 8px;
+  font-family: Calibri;
+  color: black;
+  font-size: 11pt;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  background-color: #6CCEFF;
+  border-collapse: collapse;
+  border: 2px solid navy
+}
